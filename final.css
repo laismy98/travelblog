@@ -1,0 +1,373 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 130px;
+background-color:#FFFFFF;
+position:fixed;
+	height:10vh;
+}
+.all{
+	height:90vh;
+}
+.header h3{
+	font-size:30px;
+}
+.header ul{
+display:flex;
+	justify-content:space-between;
+	width:40%;
+	list-style-type:none;
+	font-family: 'Prata', serif;
+	
+}
+.header li:hover{
+color:#73A9AD;
+}
+.header a{
+	border:1px solid #73A9AD;
+	padding : 10px 10px;
+	border-radius: 30px;
+	font-family: 'Prata', serif;
+}
+.header a:hover{
+	color: white;
+	background-color:#73A9AD;
+	box-shadow: 0px 16px 32px 0px #000000D;
+}
+.modau img{
+	width:100%;
+	padding-top:50px;
+}
+.gioithieu {
+	display:flex;
+	justify-content:center;
+	padding:50px 350px;
+	padding-right:40px;
+	height:auto;
+	margin-top:-10px;
+}
+.gt1 {
+	padding-left:20px;
+	height:100px;
+}
+hr{
+	font-size:bold;
+}
+.gt2 p{
+	padding-top:10px;
+	padding-bottom:30px;
+	width:60%;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	
+}
+.gt2 h3{
+	color:#B3C890;
+	font-family: 'Prata', serif;
+}
+.gt3 p{
+	padding-top:30px;
+	width:15%;
+	padding-bottom:30px;
+}
+.khungxanh{
+color:white;
+	background-color:#73A9AD;
+	padding:10px 10px;
+	border-radius:20px;
+	
+}
+.khungxanh:hover {
+	color:white;
+	background-color:black;
+}
+.trangtri img{
+	width:100%;
+	padding-bottom:30px;
+}
+.tieude h1{
+	color:white;
+	background-color:#73A9AD;
+	width:20%;
+	text-align:center;
+	margin:0 auto;
+	
+}
+.meo img{
+	width:60%;
+	margin:0 auto;
+	display:flex;
+	padding-top:60px;
+}
+.meo{
+	text-align:center;
+	padding:30px 150px;
+	margin-bottom:-20px;
+}
+.ndmeo h3{
+	margin-top:-10px;
+	color:#B3C890;
+	font-family: 'Prata', serif;
+}
+.ndmeo p{
+	padding:10px 130px;
+	text-align:center;
+	width:80%;
+	margin:0 auto;
+	padding-bottom:20px;
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.tieude2 h1{
+	color:white;
+	background-color:#73A9AD;
+	width:20%;
+	text-align:center;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:60px;
+}
+.maukhung{
+	width:100%;
+	height:250px;
+		background-color:#73A9AD;
+	margin-bottom:-220px;
+}
+.ndkl {
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-end;
+	padding: 0px 200px 0px 200px;
+	width:100%;
+}
+
+.kl img{
+	width:80%;
+	border:7px solid white;
+}
+.aquarium {
+	text-align:center;
+}
+.aquarium p{
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+	padding-right:10px;
+	margin-bottom:20px;
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.aquarium h3{
+	margin-top:10px;
+	color:#B3C890;
+	font-family: 'Prata', serif;
+}
+.klcc{
+	text-align:center;
+}
+.klcc h3{
+	width:100%;
+	
+	color:#B3C890;
+	padding-top:10px;
+	text-align:center;
+	font-family: 'Prata', serif;
+	}
+.klcc p{
+	width:80%;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding-left:150px;
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.ndkr{
+	display:flex;
+	justify-content:center;
+	padding: 0px 200px 0px 200px;
+	width:100%;
+}
+.a img{
+	width:80%;
+	margin-left:30px;
+	border:7px solid white;
+}
+.a {
+	text-align:center;
+	margin-top:20px;
+}
+.taipei img{
+	border:7px solid white;
+}
+.seoul p{
+	text-align:center;
+	margin-top:10px;
+	padding-left:60px;
+	width:90%;
+	margin-bottom:30px;
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.seoul h3{
+	text-align:center;
+	padding-left:30px;
+	margin-top:10px;
+	color:#73A9AD;
+	font-family: 'Prata', serif;
+}
+.taipei p{
+	width:100%;
+	text-align:center;
+	padding-right:10px;
+	margin-top:10px;
+	margin-bottom:30px;
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.taipei h3{
+	width:100%;
+	color:#73A9AD;
+	padding-top:10px;
+	margin-left:20px;
+	font-family: 'Prata', serif;
+	}
+.maukhung2{
+	width:100%;
+	height:350px;
+		background-color:#B3C890;
+	margin-bottom:-280px;
+	margin-top:30px;
+}
+.khungtrang {
+	color:#B3C890;
+	background-color:white;
+	padding:10px 20px;
+	border-radius:20px;
+}	
+.khungtrang:hover {
+	color:white;
+		background-color:black;
+}
+	.khungxanhla {
+		color:white;
+	background-color:#B3C890;
+	padding:10px 20px;
+	border-radius:20px;	
+	}	
+.khungxanhla:hover {
+	color:white;
+		background-color:black;
+}
+.more{
+	text-align:center;
+	padding:30px 150px;
+	margin-top:20px;
+}
+.more h3{
+	color: darkgray
+}
+.m1{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	align-items:center; 
+}
+.mm1{
+	background-image:url( "_DSC5946.JPG");
+	padding:60px 80px;
+	background-size:cover;
+}
+.m1 h4{
+	padding-left:20px;
+	width:29%;
+	color:darkgray;
+}
+.m2{
+	display:flex;
+	justify-content:center;
+	margin-top:10px;
+	align-items:center; 
+}
+.mm2{
+	background-image:url("IMG_0321.jpg");
+	padding:60px 80px;
+	background-size:cover;
+}
+.m2 h4{
+	padding-left:20px;
+	width:29%;
+		color:darkgray;
+}
+.m3{
+	display:flex;
+	justify-content:center;
+	margin-top:10px;
+	align-items:center; 
+}
+.mm3{
+	background-image:url( "IMG_0320.jpg");
+	padding:60px 80px;
+	background-size:cover;
+}
+.m3 h4{
+	padding-left:20px;
+	width:29%;
+	color:darkgray;
+}
+.more h4:hover{
+	color:#B3C890;
+}
+.more icon-ion{
+	color:darkgray;
+}
+	
+.tip {
+	background-color:#B3C890;
+	padding:30px 150px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.tip h1{
+	color:white;
+	padding:40px;
+	font-size:70px;
+	text-align:center;
+	width:50%;
+	font-family: 'Prata', serif;
+}
+.tip ul{
+	color:white;
+	padding-bottom:30px;
+	font-family: 'Prata', serif;
+}
+.tip li{
+	padding:10px;	
+}
+.tip li:hover{
+	color:black;
+}
+.lili{
+	margin-bottom:20px;
+}
+
+.end {
+	text-align:center;
+	padding:30px 130px;
+}
+.end h3{
+	margin-bottom:0px;
+	font-family: 'Prata', serif;
+}
+.end p{
+	margin-bottom :20px;
+	margin-top:10px;
+	padding-left:10px;
+}
+.end1 img{
+	width:100%;
+	height:600px;
+}
